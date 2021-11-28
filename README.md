@@ -1,6 +1,6 @@
 # Serverapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+A web app for managing servers connected to your network. It allows the user to create, delete, remove, update, search and ping servers.
 
 ## Development server
 
