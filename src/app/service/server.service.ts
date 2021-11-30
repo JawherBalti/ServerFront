@@ -22,7 +22,7 @@ export class ServerService {
   save$ = (server: Server) =>
     <Observable<CustomResponse>>(
       this.http
-        .post<CustomResponse>(`${this.apiUrl}/server/post`, server)
+        .post<CustomResponse>(`${this.apiUrl}/server/save`, server)
         .pipe(tap(console.log), catchError(this.handleError))
     )
 
